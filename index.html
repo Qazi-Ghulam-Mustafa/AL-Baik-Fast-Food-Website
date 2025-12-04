@@ -8,60 +8,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/Albaik_Logo-removebg-preview.png" alt="logo" width="90" height="90">
-            </a>
-            <span class="col-sm-10 col-md-10 col-lg-10">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#"
-                                        style="font-weight: 600;font-size: 24px; ">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: black;font-weight:600 ; font-size: 24px;"
-                                        href="images/WhatsApp Image 2025-08-19 at 9.23.39 PM.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Our Menu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" style="color: black;font-weight:600 ; font-size: 24px;"
-                                        href="images/WhatsApp Image 2025-08-19 at 9.23.39 PM.jpeg">&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Order Now</a>
-                                </li>
-                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
-                                        type="button" class="btn btn-danger">Pickup</button></li>
-                                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
-                                        class="btn btn-danger">Delivery</button></li>
 
-                            </ul>
-                            <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search"
-                                    aria-label="Search" />
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
-                    </div>
-                </nav>
-            </span>
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/Albaik_Logo-removebg-preview.png" class="animate__animated animate__zoomInDown"
+                    alt="logo" width="90" height="90">
+            </a>
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" style="font-size: 24px;" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" style="font-size: 24px; color:black;" href="#">
+                            Our Menu
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link fw-semibold" style="font-size: 24px; color:black;" href="#">
+                            Order Now
+                        </a>
+                    </li>
+
+                    <!-- Buttons -->
+                    <li class="nav-item mt-2 mt-lg-0">
+                        <button type="button" class="btn btn-danger mx-lg-3">Pickup</button>
+                    </li>
+
+                    <li class="nav-item mt-2 mt-lg-0">
+                        <button type="button" class="btn btn-danger">Delivery</button>
+                    </li>
+                </ul>
+
+                <!-- Search Box -->
+                <form class="d-flex mt-3 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
         </div>
     </nav>
 
 
-    <div class="Banner">
-        <img src="images/albaik banner 1.jpeg" alt="banner" style="width:100%;height: 600px;">
-    </div>
 
-    <h2 style="position: relative; top:20px">Explore Menu</h2>
+    <div class="Banner">
+        <img src="images/albaik banner 1.jpeg" alt="banner" style="width:100%;height: 600px;margin-top: 20px;">
+    </div>
+    <div style="margin: 50px;">
+
+    </div>
+    <h2 style="position: relative; top:20px; margin-left: 70px; ">Explore Menu</h2>
     <div class="container" style="height: 100px; ">
-        <div class="col-sm-12 col-md-6 col-lg-4" style="width: 20rem; padding: 30px;">
+        <div class="col-sm-12 col-md-6 col-lg-4" style="width: 20rem; padding: 30px;" >
             <img style="height: 200px;" src="images/broast full.png" class="card-img-top" alt="Broast">
             <div class="card-body">
                 <h5 class="card-title" style="text-align: center;">Crispy Fried Chicken</h5>
@@ -91,26 +110,27 @@
         <div class="col-sm-12 col-md-6 col-lg-4" style="width: 20rem; padding: 30px; ">
             <img style="height: 200px;" src="images/club sandwich.jpeg" class="card-img-top" alt="Club Sandwich">
             <div class="card-body">
-                <h5 class="card-title" style="text-align: center;">CLub Sandwich</h5>
+                <h5 class="card-title" style="text-align: center;">Sandwiches</h5>
 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button"
                     class="btn btn-warning">+ Add To Bucket</button>
             </div>
         </div>
 
-        <main>
-            <div>
-                <img src="images/Banner 2.jpeg" alt="" style="width:1300px;height: 500px; display: flex;">
-            </div>
-        </main>
+        <div class="container-fluid p-0">
+            <img src="images/Banner 2.jpeg" alt="Banner" class="img-fluid w-100"
+                style="max-height: 500px; object-fit: cover;">
+        </div>
+
         <main>
             <div>
                 <h1 style="position:relative ; top: 20px; justify-content: center; ">Food Variety</h1>
 
-                <div class="container-fluid" style="height: 100px; position: static; ">
+                <div class="container-fluid" style="height: 100px; position: static; justify-items:c ; ">
                     <h3 style="position: relative; top: 30px;">Fried Chicken</h3>
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-4 " style="width: 20rem; padding: 30px;">
+                        <div class="col-sm-12 col-md-6 col-lg-4 "
+                            style="width: 20rem; padding: 30px;justify-items: center;">
                             <img style="height: 200px;" src="images/broast full.png" class="card-img-top" alt="Broast">
                             <div class="card-body">
                                 <h5 class="card-title" style="text-align: center;">Full Crispy Fried Chicken</h5>
@@ -328,20 +348,20 @@
                     <footer>
                         <h1 style="text-align: center;">NEW AL BAIK FAST FOOD & PIZZA</h1>
                         <div class="footer">
-                            <div class="footer-one"><Strong>Careers</Strong>
+                            <div class="footer-one" style="cursor: pointer;"><Strong>Careers</Strong>
                                 <ul>
                                     <li>Our Communnity</li>
                                     <li>Our Journey</li>
                                     <li>Our History</li>
                                 </ul>
                             </div>
-                            <div class="footer-second"><Strong>Careers</Strong>
+                            <div class="footer-second" style="cursor: pointer;"><Strong>Careers</Strong>
                                 <ul>
                                     <li>Corporate</li>
                                     <li>Restaurant</li>
                                 </ul>
                             </div>
-                            <div class="footer-third "><strong>Contact Us</Strong>
+                            <div class="footer-third " style="cursor: pointer;"><strong>Contact Us</Strong>
                                 <ul>
                                     <li>Suggestion</li>
                                     <li>Complaint</li>
@@ -357,9 +377,12 @@
                                         FOOD
                                         & PIZZA</a></span>
                                 <br> <span><img src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png"
-                                        alt="whats App Logo" width="50 px" >&nbsp;&nbsp;&nbsp;
-                                    0333-2776622&nbsp;&nbsp;/&nbsp;&nbsp;
-                                    0331-2776600</span>
+                                        alt="whats App Logo" width="50 px">&nbsp;&nbsp;&nbsp;
+                                    <a
+                                        href="https://api.whatsapp.com/send/?phone=%+92332776622&text&type=phone_number&app_absent=0">0333-2776622</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+                                    <a
+                                        href="https://api.whatsapp.com/send/?phone=%+92312776600&text&type=phone_number&app_absent=0">0331-2776600</a>
+                                </span>
                                 <br>
                                 <span><img src="https://cdn-icons-png.flaticon.com/128/535/535239.png"
                                         alt="Location Logo" width="45 px">&nbsp;&nbsp;&nbsp; <a
@@ -376,7 +399,7 @@
                         </div>
                         <hr>
                         <div class="footer">
-                            <div class="col-sm-12 col-md-6 col-lg-8">
+                            <div class="col-sm-12 col-md-6 col-lg-8" style="cursor: pointer;">
                                 <div></div>Contact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <Span>Privacy Policy</Span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span>Terms And
